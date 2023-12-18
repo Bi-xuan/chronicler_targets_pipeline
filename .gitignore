@@ -1,3 +1,4 @@
 _targets/
 result
 *.html
+.Rproj.user

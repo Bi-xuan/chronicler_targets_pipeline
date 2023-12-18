@@ -1,6 +1,6 @@
 library(rix)
 
-rix(r_ver = "4.3.1",
+rix(r_ver = "latest",
     r_pkgs = c("quarto", "chronicler", "targets", "tarchetypes", "readr", "lubridate", "forcats"),
     system_pkgs = c("quarto", "pandoc"),
     tex_pkgs = c("amsmath", "framed", "fvextra",
@@ -13,3 +13,4 @@ rix(r_ver = "4.3.1",
     ide = "other",
     project_path = ".",
     overwrite = TRUE)
+
